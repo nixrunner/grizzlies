@@ -24,6 +24,15 @@ def max(str):
             pass
     return reference
 
+def median(str):
+    if len(str) % 2 == 1 :
+        index = math.floor(len(str)/2)
+        return str[index]
+    else:
+        index1 = math.floor(len(str)/2)
+        index2 = index1 - 1
+        return (str[index1] + str[index2])/2
+
 def stdev(str):
     variance = 0
     total = 0
@@ -35,14 +44,14 @@ def stdev(str):
     return math.sqrt(variance)
 
 def extract(str,num,operation):
-    chain = []
+    stack = []
     if operation == 'floor':
         for entry in str:
             if  entry >= num:
-                chain.append(entry)
+                stack.append(entry)
     elif operation == 'ceil':
         for entry in str:
             if  entry < num:
-                chain.append(entry)
-    return chain
+                stack.append(entry)
+    return  stack
 
