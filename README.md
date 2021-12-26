@@ -1,6 +1,6 @@
 # grizzlies
 
-A very simple and fast data analysis module for python. This project came to existence for the need of applying basic statistical analysis on datasets with more than 10000 entries. A couple long an monotonous university assignments were the motivator of this. Code is self-documenting and very clear.
+A very simple and fast data analysis module for python. This project came to existence for the need of applying basic statistical analysis on datasets with more than 10000 entries. A couple long and boring university assignments were the motivator of this. Code is self-documenting and very clear.
 
 ## Installation
 
