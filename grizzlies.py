@@ -55,3 +55,13 @@ def extract(str,num,operation):
                 stack.append(entry)
     return  stack
 
+def scalarMulti(str,num):  #Scalar multiplication for 1-D lists(arrays)
+    str = [entry * num for entry in str]
+    return str
+
+def sequentialMulti(str):  #This function multiplies all elements of a list with each other
+    dummy = 1
+    for entry in str:
+        result = result * dummy
+    return result
+
