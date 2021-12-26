@@ -1,4 +1,4 @@
-# Grizzlies
+# grizzlies
 
 A very simple and fast data analysis module for python. This project came to existence for the need of applying basic statistical analysis on datasets with more than 10000 entries. A couple long an monotonous university assignments were the motivator of this. Code is self-documenting and very clear.
 
@@ -26,7 +26,7 @@ grizzlies.stdev([1,2,3,4,5])
 # returns [-2, -1, 0, 1, 2, 3, 3.75, 4]
 grizzlies.extract([-2,-1,0,1,2,3,3.75,4,4.5,5],4.5,'ceil')
 
-# returns [0, 1, 2, 3, 3.75, 4, 4.5, 5.0]
+# returns [0, 1, 2, 3, 3.75, 4, 4.5, 5]
 grizzlies..extract([-2,-1,0,1,2,3,3.75,4,4.5,5],0,'floor')
 ```
 
