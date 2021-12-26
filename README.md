@@ -31,7 +31,7 @@ grizzlies..extract( [-2,-1,0,1,2,3,3.75,4,4.5,5] , 0 , 'floor' )
 ```
 
 ## Contributing
-All contributions and pull requests are very welcome. For major changes or feature additions, please add well written comments to your commit.
+All contributions and pull requests are very welcome. For major changes or feature additions, please add well-written comments to your commit.
 
 ## License
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
