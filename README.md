@@ -12,22 +12,22 @@ grizzlies does not have [pip](https://pip.pypa.io/en/stable/) package right now.
 import grizzlies
 
 # returns 3.0
-grizzlies.average([1,2,3,4,5])
+grizzlies.average( [1,2,3,4,5] )
 
 # returns 5
-grizzlies.max([[1,2,3,4,5])
+grizzlies.max( [1,2,3,4,5] )
 
 # returns 3
-grizzlies.median([[1,2,3,4,5])
+grizzlies.median( [1,2,3,4,5] )
 
 # returns 1.4142135623730951
-grizzlies.stdev([1,2,3,4,5])
+grizzlies.stdev( [1,2,3,4,5] )
 
 # returns [-2, -1, 0, 1, 2, 3, 3.75, 4]
-grizzlies.extract([-2,-1,0,1,2,3,3.75,4,4.5,5],4.5,'ceil')
+grizzlies.extract( [-2,-1,0,1,2,3,3.75,4,4.5,5] , 4.5 , 'ceil' )
 
 # returns [0, 1, 2, 3, 3.75, 4, 4.5, 5]
-grizzlies..extract([-2,-1,0,1,2,3,3.75,4,4.5,5],0,'floor')
+grizzlies..extract( [-2,-1,0,1,2,3,3.75,4,4.5,5] , 0 , 'floor' )
 ```
 
 ## Contributing
