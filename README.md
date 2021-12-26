@@ -4,7 +4,7 @@ A very simple and fast data analysis module for python. This project came to exi
 
 ## Installation
 
-Grizzlies does not have [pip](https://pip.pypa.io/en/stable/) package right now. However, I can make one due to sufficient demand.
+grizzlies does not have [pip](https://pip.pypa.io/en/stable/) package right now. However, I can make one due to sufficient demand.
 
 ## Usage
 
