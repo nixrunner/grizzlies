@@ -27,7 +27,7 @@ grizzlies.stdev( [1,2,3,4,5] )
 grizzlies.extract( [-2,-1,0,1,2,3,3.75,4,4.5,5] , 4.5 , 'ceil' )
 
 # returns [0, 1, 2, 3, 3.75, 4, 4.5, 5]
-grizzlies..extract( [-2,-1,0,1,2,3,3.75,4,4.5,5] , 0 , 'floor' )
+grizzlies.extract( [-2,-1,0,1,2,3,3.75,4,4.5,5] , 0 , 'floor' )
 ```
 
 ## Contributing
